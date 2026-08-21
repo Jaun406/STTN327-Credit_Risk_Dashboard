@@ -17,7 +17,9 @@ setwd("C:\\STTN327")
 getwd()
 
 install.packages("readxl")
+install.packages("writexl")
 library(readxl)
+library(writexl)
 
 Biographic_data <- read_excel("scorecard_dataset.xlsx", sheet ="Biographical")
 
@@ -65,6 +67,10 @@ str(merged_data)
 # at a later stage when looking at implementing machine learning models
 # merged_data$default <- as.factor(merged_data$default)
 
+# Merged data set as .csv:
+write.csv(merged_data, "C:\\STTN327\\ScoreCrad.csv", row.names = FALSE)
 
+# Merged data set as .xlsx:
+write_xlsx(merged_data, path = "C:\\STTN327\\ScoreCrad.xlsx")
 
 
