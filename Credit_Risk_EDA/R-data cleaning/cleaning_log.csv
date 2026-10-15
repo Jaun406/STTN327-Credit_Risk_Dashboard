@@ -1,0 +1,18 @@
+"Step","Before","After"
+"Original merged rows",11137,10000
+"Original unique IDs",10000,10000
+"Missing Income values",10,0
+"Missing LoanAmt values",11,0
+"Complete duplicate rows",1132,0
+"Duplicate ID observations",1137,0
+"Invalid Interest Rates",3,0
+"Negative DTI values",1,0
+"Non-positive LoanAmt",1,0
+"Gross LoanAmt errors",6,NA
+"Invalid Ages",2,0
+"HistLen > Age inconsistencies",1,0
+"HomeOwn spelling errors corrected",3,0
+"Final rows",NA,10000
+"Final unique IDs",NA,10000
+"Final missing values",NA,0
+"Final duplicate IDs",NA,0
